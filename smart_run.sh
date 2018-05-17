@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 #FROM https://github.com/confluentinc/cp-docker-images/issues/213
 if [[ ${AWS_DEPLOYMENT} == true || ${AWS_DEPLOYMENT} == 'True' || ${AWS_DEPLOYMENT} == 'true' ]];
 then
