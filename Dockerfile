@@ -1,5 +1,5 @@
 FROM confluentinc/cp-kafka:4.1.0
-
+COPY templates/ /etc/confluent/docker/
 COPY smart_run.sh /etc/confluent/docker/
 RUN chmod ag+x /etc/confluent/docker/smart_run.sh
 
